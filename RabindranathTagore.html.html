@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabindranath Tagore</title>
+    <style>
+        @import url(portfolio.css);
+    </style>
+
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    
+    
+</head>
+<body>
+    <!-- --------------------------------nav section------------------------------- -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Thakur's Work</a></li>
+                    <li><a href="#portfolio">pick's</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()" ></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Rabindranath Thakur</p>
+                <h1>He was known as <span>poet, writer, playwright, composer, philosopher, social reformer and painter</span><br></h1>
+            </div>
+        </div>
+    </div>
+<!-- ----------------------------------------------about section------------------------------------------------------------ -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/TagoreBackground.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About</h1>
+                <p>Rabindranath Tagore, also known as Gurudev was a Bengali polymath who made huge contributions to literature,
+                    art and music. Born in May 1871, Tagore found himself interested in Poetry at a young age of 8. Over time 
+                   he started writing short stories and dramas as well. A large number of his writings Tagore advocated the 
+                   freedom from British Raj. However, his writings also played an influential role in the shaping of Bengal
+                    renaissance, with their ideas of modernism and liberalism. Tagore's works combined the elements of personal
+                    with political in unique ways. In 1921 Tagore founded the Vishwa Bharati university at Shantiniketan that 
+                   was a break away from the regular rote-learning mode of education to a kind that connected the students to
+                   humanities studies world over. In 1913, Tagore became the first non-European to win a Nobel prize in
+                   literature. He is also the composer of India's national anthem. Tagore's contributions to Indian culture
+                   and literature are celebrated widely not just in India but also internationally.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Early Life</p>
+                    <p class="tab-links" onclick="opentab('experience')">Education</p>
+                    <p class="tab-links" onclick="opentab('education')">Tagore at santiniketan</p>
+                </div>
+                <div class="tab-contents active-tabs" id="skills">
+                    <p>
+                        He was born on 7 May, 1861 to Debendranath Tagore and Sarada Devi in the Jorasanko mansion which is the ancestral home of the Tagore family in Kolkata (Calcutta). Among his siblings, he was the youngest. He lost his mother when he was very young, his father was a traveller and so, he was mostly raised by his servants and maids. At a very young age, he was part of the Bengal renaissance and his family also took active participation in it. At the age of 8, he started writing poems and by the age of sixteen, he also started composing artworks and started publishing his poems under the pseudonym Bhanusimha. In 1877 he wrote the short story 'Bhikharini' and in 1882 the collection of poems 'Sandhya Sangit'.
+                        <br>
+                        He was influenced by the classical poetry of Kalidasa and started writing his own classical poems. His sister Swarnakumari was a well-known novelist. In 1873, he toured with his father for several months and gained knowledge on several subjects. He learned Sikhism when he stayed at Amritsar and pen down around six poems and many articles on the religion.
+                    </p>
+                    <!-- <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Building Android/IOS Apps</li>
+                    </ul> -->
+                </div>
+                <div class="tab-contents" id="experience">
+                    <p>
+                        His traditional education began in Brighton, East Sussex, England, at a public school. In 1878, he went to England to become a barrister to fulfill his father's wish. He was not much interested in school learning and later also he joined University College in London to learn law but he dropped this and learned various works of Shakespeare on his own. He also learned the essence of English, Irish and Scottish literature and music; he returned to India and married Mrinalini 
+                        <br>
+                        His father bought a huge land for meditation and named it Shantiniketan. Debendranath Tagore founded an 'Ashram' in 1863. In 1901, Rabindranath Tagore established an open-air school. It was a prayer hall with marble flooring and was named 'The Mandir'. It was also named 'Patha Bhavana' and started with only five students. Classes here were held under trees and followed the traditional Guru-Shishya method of teaching. This trend of teaching revived the ancient method of teaching which proved beneficial when compared with the modernised method. Unfortunately, his wife and two children died and he left alone. At that time he was very disturbed. In the meantime, his works started growing and became more popular amongst the Bengali as well as foreign readers. In 1913, he gained recognition and was awarded the prestigious Nobel Prize in Literature, and became Asia's first Nobel Laureate. Now, Shantiniketan is a famous University town in West Bengal.
+                        <br>
+                        Let us tell you that Rabindranath Tagore envisioned a centre of learning which would have the best of both the east and the west. He established the Visva Bharati University in West Bengal. It consists of two campuses one at Shantiniketan and the other at Sriniketan. Sriniketan focuses on agriculture, adult education, village, cottage industries, and handicrafts.
+                    </p>
+                    <!-- <ul>
+                        <li><span>2021-Current</span><br>UI/UX Design Training at ET Institute</li>
+                        <li><span>2019-2021</span><br>Team Lead at StarApp LLC.</li>
+                        <li><span>2017-2019</span><br>UI/UX Design Executive at Coin Digital Ltd.</li>
+                        <li><span>2016-2017</span><br>Internship at eKart eCommerce.</li>
+                    </ul> -->
+                </div>
+                <div class="tab-contents" id="education">
+                    Tagore moved to Santiniketan ashram in 1901, where he started an experimental school based on traditional guru-shishya teaching methods from the Upanishads. He hoped that the revival of the ancient methods of teaching will be more beneficial than the British imparted modern education system.
+
+                    His wife and two of their children died during this time which left him distraught.
+                    
+                    After his return from England and during his stay in Santiniketan, Tagore wrote several literary works of poetry, stories, and novels. His works had started gaining immense popularity in India as well as abroad.
+                    
+                    In 1909, Rabindranath Tagore started writing Gitanjali. In 1912, Tagore went to Europe for the second time. On the journey to London, he translated some of his poems/songs from Gitanjali to English. He met William Rothenstein, a noted British painter, in London who was impressed by the poems, made copies, and gave to Yeats and other English poets. Yeats was enthralled and later wrote the introduction to Gitanjali when it was published in September 1912 in a limited edition by the India Society in London. And in 1913, this collection of poems won the Nobel Prize in Literature. He was the first non-European to receive the prestigious award.
+                    
+                    In 1915, he was awarded a knighthood by King George V.
+                    <!-- <ul>
+                        <li><span>2016</span><br>UI/UX Design Training at EI Institute</li>
+                        <li><span>2016</span><br>MBA from MIT Bangalore</li>
+                        <li><span>2014</span><br>BBA from ISM Bangalore</li>
+                    </ul> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- --------------------------------services------------------------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Thakur's Works</h1>
+        <div class="services-list">
+            <div>
+                <h2>Drama</h2>
+                At sixteen, Tagore led his brother Jyotirindranath's adaptation of Molière's Le Bourgeois Gentilhomme. At twenty he wrote his first drama-opera: Valmiki Pratibha (The Genius of Valmiki). In it the pandit Valmiki overcomes his sins, is blessed by Saraswati, and compiles the Rāmāyana.Through it Tagore explores a wide range of dramatic styles and emotions, including usage of revamped kirtans and adaptation of traditional English and Irish folk melodies as drinking songs.Another play, written in 1912, Dak Ghar (The Post Office), describes the child Amal defying his stuffy and puerile confines by ultimately "fall[ing] asleep", hinting his physical death. A story with borderless appeal—gleaning rave reviews in Europe—Dak Ghar dealt with death as, in Tagore's words, "spiritual freedom" from "the world of hoarded wealth and certified creeds". In the Nazi-besieged Warsaw Ghetto, Polish doctor-educator Janusz Korczak had orphans in his care stage The Post Office in July 1942. In The King of Children, biographer Betty Jean Lifton suspected that Korczak, agonising over whether one should determine when and how to die, was easing the children into accepting death. In mid-October, the Nazis sent them to Treblinka.
+                His other works fuse lyrical flow and emotional rhythm into a tight focus on a core idea, a break from prior Bengali drama. Tagore sought "the play of feeling and not of action". In 1890 he released what is regarded as his finest drama: Visarjan (Sacrifice). It is an adaptation of Rajarshi, an earlier novella of his. "A forthright denunciation of a meaningless [and] cruel superstitious rite[s]", the Bengali originals feature intricate subplots and prolonged monologues that give play to historical events in seventeenth-century Udaipur.
+                <!-- <i class="fas fa-code"></i> -->
+                <!-- <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque libero necessitatibus, perspiciatis dolorem maiores totam itaque?</p>
+                <a href="#">Learn more</a> -->
+            </div>
+            <div>
+                <!-- <i class="fas fa-crop-alt"></i> -->
+                <h2>Short stories</h2>
+                <p>
+                    Tagore began his career in short stories in 1877—when he was only sixteen—with "Bhikharini" ("The Beggar Woman"). With this, Tagore effectively invented the Bengali-language short story genre. The four years from 1891 to 1895 are known as Tagore's "Sadhana" period (named for one of Tagore's magazines). This period was among Tagore's most fecund, yielding more than half the stories contained in the three-volume Galpaguchchha (or Golpoguchchho; "Bunch of Stories"), which itself is a collection of eighty-four stories. Such stories usually showcase Tagore's reflections upon his surroundings, on modern and fashionable ideas, and on interesting mind puzzles (which Tagore was fond of testing his intellect with). Tagore typically associated his earliest stories (such as those of the "Sadhana" period) with an exuberance of vitality and spontaneity; these characteristics were intimately connected with Tagore's life in the common villages of, among others, Patisar, Shajadpur, and Shilaida while managing the Tagore family's vast landholdings. There, he beheld the lives of India's poor and common people; Tagore thereby took to examining their lives with a penetrative depth and feeling that was singular in Indian literature up to that point. In particular, such stories as "Kabuliwala" ("The Fruitseller from Kabul", published in 1892), "Kshudita Pashan" ("The Hungry Stones") (August 1895), and "Atottju"("The Runaway", 1895) typified this analytic focus on the downtrodden.
+                </p>
+
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque libero necessitatibus, perspiciatis dolorem maiores totam itaque?</p>
+                <a href="#">Learn more</a> -->
+            </div>
+            <div>
+                <!-- <i class="fab fa-app-store"></i> -->
+                <h2>Novels</h2>
+                <p>
+                    Among Tagore's works, his novels are among the least-acknowledged. These include Chokher Bali (1903), Noukadubi (1906), Gora (1910), Chaturanga (1916), Ghare Baire (1916), Shesher Kobita (1929), Jogajog (1929) and Char Odhyay (1934).
+                    <br>
+                    Ghare Baire or The Home and the World, which was also released as the film by Satyajit Ray (Ghare Baire, 1984) examines rising nationalistic feeling among Indians while warning of its dangers, clearly displaying Tagore's distrust of nationalism — especially when associated with a religious element.
+                    <br>
+                    In some sense, Gora shares the same theme, raising questions regarding the Indian identity. As with Ghare Baire, matters of self-identity, personal freedom, and religious belief are developed in the context of an involving family story and a love triangle.
+                    <br>
+                    Shesher Kobita (translated twice, as Last Poem and as Farewell Song) is his most lyrical novel, containing as it does poems and rhythmic passages written by the main character (a poet).
+                    <br>
+                    Though his novels remain under-appreciated, they have recently been given new attention through many movie adaptations by such film directors as Satyajit Ray, Tapan Sinha and Tarun Majumdar. The recent among these is a version of Chokher Bali and Noukadubi (2011 film) directed by Lt. Rituparno Ghosh, which features Aishwariya Rai (in Chokher Bali). A favorite trope of these directors is to employ Rabindra Sangeet in the film adaptations' soundtracks.
+                    <br>
+                    Among Tagore's notable non-fiction books are Europe Jatrir Patro ("Letters from Europe") and Manusher Dhormo ("The Religion of Man").                   
+                </p>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque libero necessitatibus, perspiciatis dolorem maiores totam itaque?</p>
+                <a href="#">Learn more</a> -->
+            </div>
+        </div>
+    </div>
+</div>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"></h1>
+        <div class="services-list">
+            <div>
+                <!-- <i class="fas fa-code"></i> -->
+                <h2>
+                    Poetry
+                </h2>
+                <p>
+                    Internationally, Gitanjali (Bengali: গীতাঞ্জলি) is Tagore's best-known collection of poetry, for which he was awarded the Nobel Prize in 1913. Tagore was the first person (excepting Roosevelt) outside Europe to get the Nobel Prize.
+                    <br>
+                    Besides Gitanjali, other notable works include Manasi, Sonar Tori ("Golden Boat"), Balaka ("Wild Geese" — the title being a metaphor for migrating souls)
+                    <br>
+                    Tagore's poetic style, which proceeds from a lineage established by 15th- and 16th-century Vaishnava poets, ranges from classical formalism to the comic, visionary, and ecstatic. He was influenced by the atavistic mysticism of Vyasa and other rishi-authors of the Upanishads, the Bhakti-Sufi mystic Kabir, and Ramprasad Sen.
+                    <br>
+                    Other works include Manasi, Sonar Tori (Golden Boat), Balaka (Wild Geese, a name redolent of migrating souls),[33] and Purobi. Sonar Tori's most famous poem, dealing with the fleeting endurance of life and achievement, goes by the same name; hauntingly it ends: Shunno nodir tire rohinu poŗi / Jaha chhilo loe gêlo shonar tori—"all I had achieved was carried off on the golden boat—only I was left behind." Gitanjali (গীতাঞ্জলি) is Tagore's best-known collection internationally, earning him his Nobel.
+                    <br>
+                    The year 1893 AD was the turn of the century in the Bangla calendar. It was the Bangla year 1300. Tagore wrote a poem then. Its name was ‘The year 1400’. In that poem, Tagore was appealing to a new future poet, yet to be born. He urged in that poem to remember Tagore while he was reading it. He addressed it to that unknown poet who was reading it a century later.
+                </p>
+
+
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque libero necessitatibus, perspiciatis dolorem maiores totam itaque?</p>
+                <a href="#">Learn more</a> -->
+            </div>
+            <div>
+                <!-- <i class="fas fa-crop-alt"></i> -->
+                <h2>Songs (Rabindra Sangeet)</h2>
+                
+                <audio controls class="song">
+                    <source src="images/song.mp3" type="audio/mpeg">
+                  Your browser does not support the audio element.
+                </audio>
+                <h4 class="songVoice">"Tabu Mone Rekho", a song by Tagore, sung in his own voice. The song was written in 1887 CE (1294 Bengali year).</h4>
+                <p>
+                    At the time of his death, Tagore was both the most prolific composer and songwriter in history, with 2,230 songs to his credit. His songs are known as rabindrasangit ("Tagore Song"), which merges fluidly into his literature, most of which—poems or parts of novels, stories, or plays alike—were lyricised. Influenced by the thumri style of Hindustani music, they ran the entire gamut of human emotion, ranging from his early dirge-like Brahmo devotional hymns to quasi-erotic compositions.
+                    <br>
+                    In 1971, Amar Shonar Bangla became the national anthem of Bangladesh. It was written — ironically — to protest the 1905 Partition of Bengal along communal lines: cutting off the Muslim-majority East Bengal from Hindu-dominated West Bengal was to avert a regional bloodbath. Tagore saw the partition as a cunning plan to stop the independence movement, and he aimed to rekindle Bengali unity and tar communalism. Jana Gana Mana was written in shadhu-bhasha, a Sanskritised register of Bengali, and is the first of five stanzas of a Brahmo hymn Bharot Bhagyo Bidhata that Tagore composed. It was first sung in 1911 at a Calcutta session of the Indian National Congress and was adopted in 1950 by the Constituent Assembly of the Republic of India as its national anthem. Tagore thus became the only person ever to have written the national anthems of two nations.
+                    <br>
+                    The Sri Lanka's National Anthem was inspired by his work.
+                    <br>
+                    For Bengalis, the songs' appeal, stemming from the combination of emotive strength and beauty described as surpassing even Tagore's poetry, was such that the Modern Review observed that "[t]here is in Bengal no cultured home where Rabindranath's songs are not sung or at least attempted to be sung ... Even illiterate villagers sing his songs".
+                </p>
+            
+
+
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque libero necessitatibus, perspiciatis dolorem maiores totam itaque?</p>
+                <a href="#">Learn more</a> -->
+            </div>
+            <div>
+                <!-- <i class="fab fa-app-store"></i> -->
+                <h2>Art works</h2>
+                <p>
+                    At age sixty, Tagore took up drawing and painting; successful exhibitions of his many works — which made a debut appearance in Paris upon encouragement by artists he met in the south of France — were held throughout Europe. Tagore — who likely exhibited protanopia ("color blindness"), or partial lack of (red-green, in Tagore's case) colour discernment — painted in a style characterised by peculiarities in aesthetic and colouring style. Nevertheless, Tagore took to emulating numerous styles, including scrimshaw by the Malanggan people of northern New Ireland, Papua New Guinea, Haida carvings from the Pacific Northwest region of North America, and woodcuts by the German Max Pechstein.
+                    <br>
+                    [...] Surrounded by several painters Rabindranath had always wanted to paint. Writing and music, play writing and acting came to him naturally and almost without training, as it did to several others in his family, and in even greater measure. But painting eluded him. Yet he tried repeatedly to master the art and there are several references to this in his early letters and reminiscence. In 1900 for instance, when he was nearing forty and already a celebrated writer, he wrote to Jagadishchandra Bose, "You will be surprised to hear that I am sitting with a sketchbook drawing. Needless to say, the pictures are not intended for any salon in Paris, they cause me not the least suspicion that the national gallery of any country will suddenly decide to raise taxes to acquire them. But, just as a mother lavishes most affection on her ugliest son, so I feel secretly drawn to the very skill that comes to me least easily.‟ He also realized that he was using the eraser more than the pencil, and dissatisfied with the results he finally withdrew, deciding it was not for him to become a painter.
+                    <br>
+                </p>
+                <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque libero necessitatibus, perspiciatis dolorem maiores totam itaque?</p>
+                <a href="#">Learn more</a> -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------------------------------------portfolio--------------------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Some picks related to Thakur</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Tagorehouse.png" alt="">
+                <div class="layer">
+                    <h3>Tagore House</h3>
+                    <p>Tagore's house in Shelaidaha, Bangladesh.</p>
+                    <a href="https://www.tripadvisor.in/Attraction_Review-g3198095-d3187607-Reviews-Shilaidaha_Kuthibari_Rabindranath_Tagore_s_Residence-Kushtia_Khulna_Division.html" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/drama.png" alt="">
+                <div class="layer">
+                    <h3>Drama</h3>
+                    <p>Tagore performing the title role in Valmiki Pratibha (1881) with his niece Indira Devi as the goddess Lakshmi.</p>
+                    <a href="https://www.pinterest.com/pin/545217098613831090/" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/gitanjaliNew.png" alt="">
+                <div class="layer">
+                    <h3>Gitanjali</h3>
+                    <p>Title page of the 1913 Macmillan edition of Tagore's Gitanjali.</p>
+                    <a href="https://www.storyltd.com/auction/item.aspx?eid=4099&lotno=63" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title"></h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/poem.png" alt="">
+                <div class="layer">
+                    <h3>Poem</h3>
+                    <p>
+                        Part of a poem written by Tagore in Hungary, 1926
+                    </p>
+                    <a href="https://en.wikipedia.org/wiki/Rabindranath_Tagore" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/tsungu.png" alt="">
+                <div class="layer">
+                    <h3>Tagore at Tsinghua</h3>
+                    <p>Tsinghua University, 1924</p>
+                    <a href="https://en.wikipedia.org/wiki/Rabindranath_Tagore" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/RE.png" alt="">
+                <div class="layer">
+                    <h3>Tagore meet Einstein</h3>
+                    <p>Rabindranath with Einstein in 1930</p>
+                    <a href="https://en.wikipedia.org/wiki/Rabindranath_Tagore" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.tallengestore.com/collections/rabindranath-tagore-paintings" target="_blank" class="btn">See more</a>
+    </div>
+</div>
+<!-- --------------------------------------------death------------------------------------------ -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"></h1>
+        <div class="services-list">
+            <div class="tagore">
+                <h1>Death</h1> 
+            After an extended period of suffering, Tagore died on August 7, 1941, in the same mansion in which he was brought up.
+            
+            <h2>Legacy of Rabindranath Tagore:</h2>
+            Rabindranath Tagore changed the way Bengali literature was perceived as he left an everlasting impression on the readers.
+            Many countries have his statues erected and host many yearly events to pay tribute to the legendary writer.
+            Many of his works have been made global, thanks to a host of translations by many famous international writers.
+            There are five museums dedicated to Tagore. While three of them are situated in India, the remaining two are in Bangladesh. The museums’ house his famous works, and are visited by millions every year.
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ---------------------------------------------contact------------------------------------------------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <!-- <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> Contact@example.com</p>
+                <p> <i class="fas fa-phone-square-alt"></i> 0123456789</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i> </a>
+                    <a href="#"><i class="fab fa-twitter-square"></i> </a>
+                    <a href="#"><i class="fab fa-instagram"></i> </a>
+                    <a href="#"><i class="fab fa-linkedin"></i> </a>
+                </div>
+                <a href="images/my-cv.pdf" download="download" class="btn btn2" target="_blank">Download CV</a>
+            </div> -->
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" id=""  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+         <!-- by Easy Tutorials -->
+        <p>
+            copyright @Chandan_kr_Singh. Made with<i class="fas fa-heart"></i> Keen and able computers private ltd.
+        </p>
+    </div>
+</div>
+
+<!-- -------------------------------------javaScript----------------------------------- -->
+<script src="portfolio.js"></script>
+
+<script src="portfolio2.js"></script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxLoSqVTmzPgfPt4FkLJvNI-d1pe3x_z-jVp0wjpR8ZNYj-nAfD4m1PZegttBe6rz80/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
